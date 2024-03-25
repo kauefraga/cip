@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "Comfy Home Page",
+  "description": "A helpful and comfortable new tab page for chromium browsers.",
+  "version": "1.0.0",
+  "author": "Kauê Fraga Rodrigues <rkauefraga@gmail.com>",
+  "icons": {},
+  "chrome_url_overrides": {
+    "newtab": "index.html"
+  }
+}
