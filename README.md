@@ -1,25 +1,21 @@
 # Comfy Initial Page
 
-> [!INFO]
+> [!NOTE]
 > It's a "new tab" page replacement made to group some links that I use often. It is very simple and has a comfortable color palette.
 
 > See a preview at [kauefraga.github.io/cip](https://kauefraga.github.io/cip) or go to the [gallery section](#gallery).
 
 ## ⬇ How to install it
 
-First, go to the [CIP releases page](https://github.com/kauefraga/cip/releases) and install the latest `cip.zip`.
+First, go to the [CIP releases page](https://github.com/kauefraga/cip/releases), install the latest `cip.zip` and unzip it.
 
-Or run the next commands below (curl and zip required):
-
-```bash
-curl -OL https://github.com/kauefraga/cip/releases/download/v1.0.0/cip.zip
-```
-
-Then, unzip it and go to your chromium browser extensions page (e.g. [chrome://extensions](chrome://extensions)).
+Or run the command below (curl and zip required):
 
 ```bash
-unzip cip.zip
+curl -sS https://raw.githubusercontent.com/kauefraga/cip/main/scripts/install.sh | sh
 ```
+
+Then, go to your chromium browser extensions page (e.g. [chrome://extensions](chrome://extensions), [vivaldi://extensions](vivaldi://extensions)).
 
 ![Enable developer mode and click in "Load unpacked"](.github/guide.png)
 
